@@ -1,6 +1,6 @@
 package com.thebeast572.customgodmode;
 
-import com.thebeast572.customgodmode.handlers.entityHitByEntity;
+import com.thebeast572.customgodmode.handlers.customGamemodeFunctions;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginManager;
@@ -27,7 +27,7 @@ public class Main extends JavaPlugin {
     public void registerEvents() {
         PluginManager pm = Bukkit.getPluginManager();
 
-        pm.registerEvents(new entityHitByEntity(), this);
+        pm.registerEvents(new customGamemodeFunctions(), this);
     }
 
     public void registerCommands() {
