@@ -1,0 +1,10 @@
+main: com.thebeast572.customgodmode.Main
+name: DeciGodMode
+version: 1.0
+description: Fixes Already Existing GodMode
+commands:
+  decigod:
+    description: Main Plugin Command!
+permissions:
+  decigodmode.allow:
+    description: Allows staff to use the command!
